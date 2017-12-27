@@ -14,3 +14,23 @@ font-family: 'Open Sans', sans-serif;*/
 height:120vh;
 padding:15px;
 }
+
+
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background-color: rgba(255,255,255,1);
+}
+
+.load-gif{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+ }
