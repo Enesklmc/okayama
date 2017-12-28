@@ -5,22 +5,16 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-   
-	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-	
-	
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" type="" href="style.css">
   
-  <!--  link for jquery -->   
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>   
-	
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   
   </head>
 <body>
-	<!--  ---------------- Loading page and Gif under the body  -->
-<div class="se-pre-con"><img width="300" src="loading-gif.gif" class="load-gif"><img></div>
-    <!--     -->
+<div class="loading-div"><img width="350" src="loading-gif.gif" class="load-gif"><img></div>
+  
   
   
   
@@ -39,13 +33,13 @@ Donec quis blandit augue. Suspendisse tellus elit, semper in tincidunt et, dictu
     
   </div>  
   
-  <!-- Script for display content -->
+  
   <script>
 	$(window).on("load", function (e) {
-		$(".se-pre-con").delay(1500).fadeOut("slow");
+		$(".loading-div").delay(1500).fadeOut("slow"); //delay time
 	});
 </script>
-  <!--     -->
+  
   
   </body>
 </html>
